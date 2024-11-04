@@ -1,3 +1,6 @@
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https:colab.research.google.com/github/nogibjj/Nruta_Mini_Project_9/blob/main/main.ipynb)
+[![Format](https://github.com/nogibjj/Nruta_Mini_Project_9/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nruta_Mini_Project_9/actions/workflows/cicd.yml)
+
 # IDS 706 Mini Project 9 - Cloud-Hosted Notebook Data Manipulation
 
 ### 🏗️ Requirements
@@ -19,6 +22,26 @@
 ├── sustainable_fashion_trends_2024.csv
 └── test_main.py
 ```
+
+### 🛠️ Setup Instructions
+#### Step 1: Open Google Colab
+1. Go to Google Colab.
+2. Sign in with your Google account if you haven’t already.
+
+#### Step 2: Clone the Repository
+To access this project’s files in Colab, clone the repository from GitHub.
+1. Start a new notebook in Google Colab.
+2. Run the following cell to clone the repository:
+```
+git clone https://github.com/nogibjj/Nruta_Mini_Project_9
+```
+
+#### Step 3: Install Dependencies
+If your project has a requirements.txt file, you can install the dependencies by running:
+```
+!pip install -r requirements.txt
+```
+
 
 ### 📊 Dataset Description
 The dataset used for this project is Sustainable Fashion: Eco-Friendly Trends from Kaggle. It provides information on sustainable fashion trends with various metrics related to the industry. For more details and to download the dataset, visit this [link](https://www.kaggle.com/datasets/waqi786/sustainable-fashion-eco-friendly-trends).
@@ -49,15 +72,4 @@ Describe:
 |  1 | Median             | 250.65  |
 |  2 | Standard Deviation | 142.802 |
 
-
-### 🔍 Visualizations
-The script generates two visualizations:
-
-1. Bar Chart - Displays the number of sustainable fashion brands by the countries.
-![sustainablebrand_viz1](bar_plot.png)
-
-2. Pie Chart - Shows the propotion of brands based on the materials they use.
-![sustainablebrand_viz2](pie_chart.png)
-
-The statistics and the visualizations for the Sustainability brands data can be viewed through the following link:
-[Click here to view details](sustainable_fashion.md)
+### 
