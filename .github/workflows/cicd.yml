@@ -1,4 +1,4 @@
-name: Format
+name: CICD
 
 on:
   push:
