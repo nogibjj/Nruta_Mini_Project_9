@@ -1,4 +1,4 @@
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https:colab.research.google.com/github/nogibjj/Nruta_Mini_Project_9/blob/main/main.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https:colab.research.google.com/github/Nruta_Mini_Project_9/blob/main/main.ipynb)
 [![Format](https://github.com/nogibjj/Nruta_Mini_Project_9/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nruta_Mini_Project_9/actions/workflows/cicd.yml)
 
 # IDS 706 Mini Project 9 - Cloud-Hosted Notebook Data Manipulation
