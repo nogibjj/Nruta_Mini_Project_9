@@ -14,7 +14,7 @@ test:
 	pytest --nbval *.ipynb && python -m pytest -cov=mylib test_main.py mylib/test_lib.py
 
 generate_and_push:
-	python sustainable_fashion.py
+	python main.py
 	git config --local user.email "action@github.com"
 	git config --local user.name "GitHub Action"
 	git add bar_plot.png pie_chart.png sustainable_fashion.md
